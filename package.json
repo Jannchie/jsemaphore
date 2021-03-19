@@ -1,6 +1,6 @@
 {
   "name": "jsemaphore",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Simple semaphore, just like semaphore in python.",
   "main": "lib/semaphore.js",
   "repository": "https://github.com/Jannchie/jsemaphore",
@@ -8,10 +8,16 @@
   "license": "MIT",
   "typings": "typings",
   "scripts": {
-    "prepublish ": "tsc",
+    "prepublish ": "yarn build",
+    "build": "tsc",
     "coveralls": "jest --coverage && cat ./coverage/lcov.info | coveralls",
     "coverage": "jest --coverage"
   },
+  "files": [
+    "lib/**/*",
+    "src/**/*",
+    "typings/**/*"
+  ],
   "devDependencies": {
     "@types/jest": "^26.0.21",
     "coveralls": "^3.1.0",

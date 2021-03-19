@@ -2,7 +2,7 @@
   "name": "jsemaphore",
   "version": "1.0.1",
   "description": "Simple semaphore, just like semaphore in python.",
-  "main": "lib/index.js",
+  "main": "lib/semaphore.js",
   "repository": "https://github.com/Jannchie/jsemaphore",
   "author": "Jannchie <jannchie@gmail.com>",
   "license": "MIT",

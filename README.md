@@ -2,6 +2,18 @@
 
 [![Coverage Status](https://coveralls.io/repos/github/Jannchie/jsemaphore/badge.svg?branch=main)](https://coveralls.io/github/Jannchie/jsemaphore?branch=main) [![Language grade: JavaScript](https://img.shields.io/lgtm/grade/javascript/g/Jannchie/jsemaphore.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/Jannchie/jsemaphore/context:javascript)
 
+## Setup
+
+``` bash
+npm i jsemaphore
+```
+
+or
+
+``` bash
+yarn add jsemaphore
+```
+
 ## Usage
 
 ``` ts

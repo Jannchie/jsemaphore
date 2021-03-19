@@ -1,4 +1,4 @@
-import { Semaphore } from "../src/semaphore";
+import { Semaphore } from "../src/index";
 
 test("error", () => {
   expect(() => {

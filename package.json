@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Simple semaphore, just like semaphore in python.",
   "main": "lib/index.js",
-  "repository": "https://github.com/Jannchie/spider-cookies",
+  "repository": "https://github.com/Jannchie/jsemaphore",
   "author": "Jannchie <jannchie@gmail.com>",
   "license": "MIT",
   "typings": "typings",

@@ -1,6 +1,6 @@
 {
   "name": "jsemaphore",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Simple semaphore, just like semaphore in python.",
   "main": "lib/index.js",
   "repository": "https://github.com/Jannchie/jsemaphore",

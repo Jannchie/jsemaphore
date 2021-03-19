@@ -6,6 +6,14 @@ export class Semaphore {
   private count: number;
   private concurrency: number;
   private waitingTasks: PromiseInfo[];
+
+  get empty() {
+    return this.count === 0;
+  }
+
+  get full() {
+    return this.concurrency === this.count;
+  }
   constructor(concurrency: number) {
     if (concurrency <= 0) {
       throw new Error("Concurrency Should greater then 0!");
